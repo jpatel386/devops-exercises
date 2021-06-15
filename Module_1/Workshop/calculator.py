@@ -11,6 +11,8 @@ def calculator(op, num1, num2):
         return num1 * num2
     elif op == "/":
         return num1 / num2
+    elif op = "^":
+        return num1 ** num2
     else:
         return "That operation is not valid"
 
